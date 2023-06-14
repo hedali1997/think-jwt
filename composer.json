@@ -1,5 +1,5 @@
 {
-    "name": "xiaodi/think-jwt",
+    "name": "hedali/think-jwt",
     "type": "think-extend",
     "license": "MIT",
     "keywords": [
@@ -10,8 +10,8 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "xiaodi",
-            "email": "liangjinbiao@live.com"
+            "name": "hedali",
+            "email": "2963249196@qq.com"
         }
     ],
     "require": {
