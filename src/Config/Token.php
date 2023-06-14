@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Config;
+namespace hedali\JWTAuth\Config;
 
 use Lcobucci\JWT\Signer;
-use xiaodi\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Exception\JWTException;
 
 class Token
 {

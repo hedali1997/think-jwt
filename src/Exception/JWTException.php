@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaodi\JWTAuth\Exception;
+namespace hedali\JWTAuth\Exception;
 
 use think\exception\HttpException;
 

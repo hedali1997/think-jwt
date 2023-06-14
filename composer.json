@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "xiaodi\\JWTAuth\\": "src/"
+            "hedali\\JWTAuth\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -38,13 +38,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "xiaodi\\JWTAuth\\Tests\\": "tests/"
+            "hedali\\JWTAuth\\Tests\\": "tests/"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "xiaodi\\JWTAuth\\JwtService"
+                "hedali\\JWTAuth\\JwtService"
             ],
             "config": {
                 "jwt": "config/config.php"

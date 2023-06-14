@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaodi\JWTAuth\Exception;
+namespace hedali\JWTAuth\Exception;
 
 /**
  * Token 已过期.

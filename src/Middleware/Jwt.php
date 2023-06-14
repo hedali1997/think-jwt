@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Middleware;
+namespace hedali\JWTAuth\Middleware;
 
 use think\App;
 use think\Response;
-use xiaodi\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Exception\JWTException;
 
 /**
  * 中间件.

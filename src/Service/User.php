@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Service;
+namespace hedali\JWTAuth\Service;
 
 use think\App;
-use xiaodi\JWTAuth\Config\User as Config;
-use xiaodi\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Config\User as Config;
+use hedali\JWTAuth\Exception\JWTException;
 
 class User
 {

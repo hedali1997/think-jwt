@@ -80,8 +80,8 @@ return [
 * `whitelist` 白名单缓存名
 
 以下两个异常都会抛一个HTTP异常 StatusCode = 401
-* `xiaodi\Exception\HasLoggedException`
-* `xiaodi\Exception\TokenAlreadyEexpired`
+* `hedali\Exception\HasLoggedException`
+* `hedali\Exception\TokenAlreadyEexpired`
 
 ### 缓存支持
 * File
@@ -91,7 +91,7 @@ return [
 ```php
 namespace app\home\controller\Auth;
 
-use xiaodi\JWTAuth\Facade\Jwt;
+use hedali\JWTAuth\Facade\Jwt;
 
 public function login()
 {
@@ -115,9 +115,9 @@ public function login()
 
 ### 手动验证
 ```php
-use xiaodi\JWTAuth\Facade\Jwt;
-use xiaodi\JWTAuth\Exception\HasLoggedException;
-use xiaodi\JWTAuth\Exception\TokenAlreadyEexpired;
+use hedali\JWTAuth\Facade\Jwt;
+use hedali\JWTAuth\Exception\HasLoggedException;
+use hedali\JWTAuth\Exception\TokenAlreadyEexpired;
 
 class User {
 
@@ -137,7 +137,7 @@ class User {
 
 ### 路由验证
 ```php
-use xiaodi\JWTAuth\Middleware\Jwt;
+use hedali\JWTAuth\Middleware\Jwt;
 
 // 自动获取当前应用配置
 Route::get('/hello', 'index/index')->middleware(Jwt::class);

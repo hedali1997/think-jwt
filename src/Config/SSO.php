@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace xiaodi\JWTAuth\Config;
+namespace hedali\JWTAuth\Config;
 
 class SSO
 {

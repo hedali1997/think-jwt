@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Service;
+namespace hedali\JWTAuth\Service;
 
 use think\App;
-use xiaodi\JWTAuth\Config\SSO as Config;
+use hedali\JWTAuth\Config\SSO as Config;
 
 class SSO
 {

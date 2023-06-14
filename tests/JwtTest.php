@@ -1,17 +1,17 @@
 <?php
 
-namespace xiaodi\JWTAuth\Tests;
+namespace hedali\JWTAuth\Tests;
 
 use Lcobucci\JWT\Token;
 use Mockery as m;
 use think\App;
 use think\Container;
 use think\facade\Config;
-use xiaodi\Exception\JWTException;
-use xiaodi\Exception\JWTInvalidArgumentException;
-use xiaodi\Exception\TokenAlreadyEexpired;
-use xiaodi\JWTAuth\Blacklist;
-use xiaodi\JWTAuth\Jwt;
+use hedali\Exception\JWTException;
+use hedali\Exception\JWTInvalidArgumentException;
+use hedali\Exception\TokenAlreadyEexpired;
+use hedali\JWTAuth\Blacklist;
+use hedali\JWTAuth\Jwt;
 
 class JwtTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Handle;
+namespace hedali\JWTAuth\Handle;
 
 class Header extends RequestToken
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Command;
+namespace hedali\JWTAuth\Command;
 
 use Nette\PhpGenerator\Helpers;
 use Nette\PhpGenerator\PhpFile;

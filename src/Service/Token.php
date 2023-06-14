@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Service;
+namespace hedali\JWTAuth\Service;
 
 use DateTimeZone;
 use DateTimeImmutable;
 use DateTimeInterface;
 use think\App;
-use xiaodi\JWTAuth\Config\Token as Config;
-use xiaodi\JWTAuth\Handle\RequestToken;
+use hedali\JWTAuth\Config\Token as Config;
+use hedali\JWTAuth\Handle\RequestToken;
 use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Token as JwtToken;
 use Lcobucci\JWT\Signer\Key\InMemory;
 use Lcobucci\JWT\Validation\Constraint\SignedWith;
 use Lcobucci\JWT\Validation\Constraint\ValidAt;
 use Lcobucci\Clock\SystemClock;
-use xiaodi\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Exception\JWTException;
 
 class Token
 {

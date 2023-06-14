@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Service;
+namespace hedali\JWTAuth\Service;
 
 use think\App;
 use Lcobucci\JWT\Token;
-use xiaodi\JWTAuth\Config\Manager as Config;
+use hedali\JWTAuth\Config\Manager as Config;
 
 class Manager
 {

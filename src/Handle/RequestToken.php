@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Handle;
+namespace hedali\JWTAuth\Handle;
 
 use think\App;
-use xiaodi\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Exception\JWTException;
 
 class RequestToken
 {
@@ -35,7 +35,7 @@ class RequestToken
 
         foreach ($handles as $handle) {
             if (in_array($handle, $this->handles)) {
-                $namespace = '\\xiaodi\\JWTAuth\Handle\\' . $handle;
+                $namespace = '\\hedali\\JWTAuth\Handle\\' . $handle;
                 $token = (new $namespace($this->app))->handle();
                 if ($token) {
                     $this->token = $token;

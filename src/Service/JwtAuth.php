@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace xiaodi\JWTAuth\Service;
+namespace hedali\JWTAuth\Service;
 
 use DateTimeImmutable;
 use think\App;
 
 use Lcobucci\JWT\Token;
-use xiaodi\JWTAuth\Exception\JWTException;
-use xiaodi\JWTAuth\Exception\TokenAlreadyEexpired;
+use hedali\JWTAuth\Exception\JWTException;
+use hedali\JWTAuth\Exception\TokenAlreadyEexpired;
 
 class JwtAuth
 {

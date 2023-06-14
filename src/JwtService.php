@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace xiaodi\JWTAuth;
+namespace hedali\JWTAuth;
 
-use xiaodi\JWTAuth\Service\JwtAuth;
-use xiaodi\JWTAuth\Service\Manager;
-use xiaodi\JWTAuth\Service\Token;
-use xiaodi\JWTAuth\Service\SSO;
-use xiaodi\JWTAuth\Service\User;
+use hedali\JWTAuth\Service\JwtAuth;
+use hedali\JWTAuth\Service\Manager;
+use hedali\JWTAuth\Service\Token;
+use hedali\JWTAuth\Service\SSO;
+use hedali\JWTAuth\Service\User;
 
 class JwtService extends \think\Service
 {
