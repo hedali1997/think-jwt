@@ -99,7 +99,7 @@ class Token
             ->withClaim('store', $this->getStore());
 
         foreach ($claims as $key => $value) {
-            $builder->withClaim($key, $value);
+            $builder = $builder->withClaim($key, $value);
         }
 
         return $builder->getToken($this->jwtConfiguration->signer(), $this->jwtConfiguration->signingKey());
