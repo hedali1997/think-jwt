@@ -14,7 +14,7 @@ use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Token as JwtToken;
 use Lcobucci\JWT\Signer\Key\InMemory;
 use Lcobucci\JWT\Validation\Constraint\SignedWith;
-use Lcobucci\JWT\Validation\Constraint\ValidAt;
+use Lcobucci\JWT\Validation\Constraint\StrictValidAt;
 use Lcobucci\Clock\SystemClock;
 use hedali\JWTAuth\Exception\JWTException;
 
@@ -132,7 +132,7 @@ class Token
     {
         $token = $this->parse($token);
         $this->jwtConfiguration->setValidationConstraints(
-            new ValidAt(new SystemClock(new DateTimeZone(\date_default_timezone_get()))),
+            new StrictValidAt(new SystemClock(new DateTimeZone(\date_default_timezone_get()))),
             new SignedWith($this->jwtConfiguration->signer(), $this->jwtConfiguration->signingKey())
         );
 
