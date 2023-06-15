@@ -6,14 +6,10 @@
 
 只支持 `thinkphp 6.0`
 ## 安装
-稳定版
-```sh
-$ composer require xiaodi/think-jwt
-```
 
-开发版
+开发版 fork的xiaodi/think-jwt 支持php8.1
 ```sh
-$ composer require xiaodi/think-jwt:dev-next
+$ composer require hedali/think-jwt:dev-master
 ```
 
 ## 使用
